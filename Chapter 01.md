@@ -11,6 +11,7 @@ Y ya está. Lo demás será más o menos complicado de hacer hasta que todo func
 
 El código completo de nuestra aplicación sería:
 
+[code language="html", gutter="true", title="Pepe", highlight="0"]
 var express = require('express');
 var app = express();
 
@@ -23,6 +24,7 @@ var port = 5000;
 app.listen(port, function() {
     console.log('Server listening: http://localhost:' + port);
 });
+[/code]
 
 Y ya! Sencillo eh!
 
